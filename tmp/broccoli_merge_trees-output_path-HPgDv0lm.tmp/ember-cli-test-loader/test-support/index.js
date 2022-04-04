@@ -1,0 +1,1 @@
+C:/Users/Lenovo/Desktop/sampleAssignment/tmp/broccoli_merge_trees-input_base_path-MvCYtTkU.tmp/17/ember-cli-test-loader/test-support/index.js

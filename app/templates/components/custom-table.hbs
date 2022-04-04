@@ -1,0 +1,7 @@
+{{#each model as |row|}}
+  <tr>
+    {{#each row as |item|}}
+      {{custom-row model=item}}
+    {{/each}}
+  </tr>
+{{/each}}

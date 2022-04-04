@@ -1,0 +1,35 @@
+
+<label class="muted-text label-text"> {{model.label}} </label>
+<div>
+  {{#basic-dropdown horizontalPosition='left'  as |dd|}}
+    {{#dd.trigger class="dropdown-trigger"}}
+      {{#if model.icon}}
+        <img class="icon mg-l-15" src={{model.icon}}>
+      {{/if}}
+      {{#if isEditing}}
+        {{input
+          class='input'
+          value=model.value
+          autoFocus=true
+          mouseLeave=(action 'onBlur' model)
+          disabled=isDisabled
+        }}
+      {{else}}
+        {{input
+          class=(if showHover 'input interactable text-ellipsis' 'input text-ellipsis')
+          value=model.value
+          doubleClick=(action 'onDoubleClick' model)
+          disabled=true
+        }}
+      {{/if}}
+    {{/dd.trigger}}
+    {{#if (and model.hint (not isEditing))}}
+      {{#dd.content class="basic-dropdown-menu"}}
+        {{#if model.icon}}
+          <img class="icon" src={{model.icon}}>
+        {{/if}}
+        <span>{{model.hint}}</span>
+      {{/dd.content}}
+    {{/if}}
+  {{/basic-dropdown}}
+</div>

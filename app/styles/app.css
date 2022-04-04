@@ -1,0 +1,78 @@
+.table {
+  background: #fff;
+  text-align: center;
+  width: 100%;
+  padding: 10%;
+}
+
+.td {
+  height: 85px;
+  box-shadow: 0 2px 10px 0 #27313a33;
+}
+.icon {
+  width: 14px;
+  height: 14px;
+}
+
+.dropdown-trigger {
+  display: inline;
+}
+
+.basic-dropdown-menu {
+  color: #666;
+  box-shadow: 0 2px 10px 0 #27313a33;
+  border: 1px solid #EBEFF3;
+  border-radius: 4px;
+  margin-top: 10px;
+  padding: 5px 15px;
+  width: 250px;
+}
+
+.mg-l-15 {
+  margin-left: 15px;
+}
+
+.interactable:hover {
+  background-color: #e5f2fd;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+.bg-default {
+  background-color: #fff;
+}
+
+/* text related css */
+
+.muted-text {
+  color: #666;
+}
+
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.input {
+  color: #000;
+  background-color: #fff;
+  box-sizing: border-box;
+  text-align: left;
+  line-height: 1.5;
+  border: none;
+  height: 34px;
+  width: 250px;
+  font-size: 12px;
+}
+
+.label-text {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  width: 250px;
+  text-transform: capitalize;
+  text-align: left;
+}

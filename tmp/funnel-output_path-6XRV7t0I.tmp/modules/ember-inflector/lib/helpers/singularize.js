@@ -1,0 +1,1 @@
+C:/Users/Lenovo/Desktop/sampleAssignment/tmp/funnel-input_base_path-htFOxiij.tmp/lib/helpers/singularize.js
